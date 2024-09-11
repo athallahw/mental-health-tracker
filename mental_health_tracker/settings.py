@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mental_health_tracker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,3 +123,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # test
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://athallah-wibowo-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://athallah-wibowo-mentalhealthtracker.pbp.cs.ui.ac.id/"]
