@@ -133,4 +133,4 @@ else:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # test
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://athallah-wibowo-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://athallah-wibowo-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://athallah-wibowo-mentalhealthtrackers.pbp.cs.ui.ac.id/", "https://athallah-wibowo-mentalhealthtrackers.pbp.cs.ui.ac.id/"]
